@@ -5,7 +5,7 @@ I have implemented the Function plotter app using python programming language wi
 
 Steps to run the GUI application:
 1. Clone the repository 
-2. install python any version >= 
+2. install python any version >= 3
 3. Open terminal under directory Function-Plotter
 4. run **pip install pyqt5, pyqtgraph**
 5. run **py functionplotter.py**
