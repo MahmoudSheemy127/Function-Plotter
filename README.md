@@ -33,15 +33,42 @@ Snapshots from Program:
 
 Valid input from user examples:
 
-![image](https://user-images.githubusercontent.com/51798396/169177181-3d64c8db-db1a-4fdb-a466-8ddb6944b372.png)
-![image](https://user-images.githubusercontent.com/51798396/169177272-79b74348-db47-46c1-8c65-bf300c9498ec.png)
+Addition:
+
+![image](screenshots/add.png)
+
+Multiplication:
+
+![image](screenshots/mult.png)
+
+Division:
+
+![image](screenshots/div.png)
+
+Power:
+
+![image](screenshots/pow.png)
+
 
 Invalid input from user examples:
 
-wrong variable: 
+Invalid input statement (Wrong variables): 
 
-![image](https://user-images.githubusercontent.com/51798396/169177412-abd355e4-3ada-439d-84d3-17974ef7691a.png)
+![image](screenshots/invalid.png)
 
-Double operations: 
+Invalid input statement (Wrong operations): 
 
-![image](https://user-images.githubusercontent.com/51798396/169177453-a7dc6b5e-408f-4b88-ad7e-5773142d16a2.png)
+![image](screenshots/invalid_2.png)
+
+Invalid range (non-numerical values): 
+
+![image](screenshots/invalid_range.png)
+
+Invalid range (max smaller than min values): 
+
+![image](screenshots/range_error2.png)
+
+Invalid logical result (for ex: log(-ve)): 
+
+![image](screenshots/logical_error.png)
+
