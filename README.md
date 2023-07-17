@@ -72,3 +72,6 @@ Invalid logical result (for ex: log(-ve)):
 
 ![image](screenshots/logical_error.png)
 
+Test script run:
+![image](screenshots/test.png)
+
