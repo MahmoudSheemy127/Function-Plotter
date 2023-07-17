@@ -93,6 +93,10 @@ class MainWindow(QMainWindow):
             #take x-axis boundaries from Xmin and Xmax input fields from User
             xMin = int(self.Xmin.text())
             xMax = int(self.Xmax.text())
+            if xMax <= xMin:
+                self.alert.setText("Error: Maximum range value should be larger than minimum range value")
+                self.alert.exec()
+                return
             x_axis = [i for i in range(xMin,xMax)]
             result = execute(x_axis,self.functionText.text())
         except:
